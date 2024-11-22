@@ -34,8 +34,8 @@
             this.btn_acc_list = new Guna.UI2.WinForms.Guna2Button();
             this.btn_logs = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.btn_close = new Guna.UI2.WinForms.Guna2Button();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.btn_close = new Guna.UI2.WinForms.Guna2Button();
             this.SuspendLayout();
             // 
             // btn_add_account
@@ -79,6 +79,7 @@
             this.btn_logs.Size = new System.Drawing.Size(172, 54);
             this.btn_logs.TabIndex = 2;
             this.btn_logs.Text = "Logs";
+            this.btn_logs.Click += new System.EventHandler(this.btn_logs_Click);
             // 
             // label1
             // 
@@ -89,6 +90,12 @@
             this.label1.Size = new System.Drawing.Size(121, 24);
             this.label1.TabIndex = 3;
             this.label1.Text = "Administrator";
+            // 
+            // guna2DragControl1
+            // 
+            this.guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
+            this.guna2DragControl1.TargetControl = this;
+            this.guna2DragControl1.UseTransparentDrag = true;
             // 
             // btn_close
             // 
@@ -107,12 +114,6 @@
             this.btn_close.Size = new System.Drawing.Size(32, 22);
             this.btn_close.TabIndex = 4;
             this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
-            // 
-            // guna2DragControl1
-            // 
-            this.guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
-            this.guna2DragControl1.TargetControl = this;
-            this.guna2DragControl1.UseTransparentDrag = true;
             // 
             // Admin_Frm_Main
             // 

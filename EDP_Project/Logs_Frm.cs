@@ -10,26 +10,19 @@ using System.Windows.Forms;
 
 namespace EDP_Project
 {
-    
-    public partial class Admin_Frm_Main : Form
+    public partial class Logs_Frm : Form
     {
-        Admin_Frm_Login adl = new Admin_Frm_Login();
-        public Admin_Frm_Main()
+        public Logs_Frm()
         {
             InitializeComponent();
         }
 
         private void btn_close_Click(object sender, EventArgs e)
         {
-            this.Close(); 
-            adl.Show();
-        }
-
-        private void btn_logs_Click(object sender, EventArgs e)
-        {
-            Logs_Frm lg = new Logs_Frm();
-            lg.Show();
+            Admin_Frm_Main af = new Admin_Frm_Main();
             this.Hide();
+            af.Show();
+
         }
     }
 }
