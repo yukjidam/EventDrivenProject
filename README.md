@@ -15,6 +15,7 @@
 - ~~Account Creation~~
 - ~~Account Display~~
 - ~~Logs and History~~
+  
 **User Module**
 - Account Login
 - Home Display
@@ -23,6 +24,7 @@
 - Edit / Delete Patient Record
 - Queueing System
 - Email API Integration
+
 **Module Testing**
 - Admin Module
 - User Module      
