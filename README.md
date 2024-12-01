@@ -15,7 +15,7 @@
 - ~~Account Creation~~
 - ~~Account Display~~
 - ~~Logs and History~~
-**User Module
+**User Module**
 - Account Login
 - Home Display
 - Add Patient Record
@@ -30,4 +30,3 @@
 # **Things to Remember**
 - Download LuxBite_DB file and restore it to your SSMS application.
 - Remember to change constring (connection string) if using different device.
-- 
